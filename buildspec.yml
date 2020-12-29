@@ -14,5 +14,5 @@ post_build:
   - echo "Entered the post-build phase"
   - mv target/deploy ./
 artifacts:
-files:
+  files:
   - deploy/**/*
